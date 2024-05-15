@@ -1,0 +1,30 @@
+body{
+          background-image: url(images.jpeg);
+}
+.container{
+          max-width: 600px;
+          margin: 50px auto;
+          text-align: center;
+}
+input[type="text"]{
+          width: 70%;
+          padding: 40px;
+          margin-bottom: 50px;
+}
+button{
+          padding: 20px 20px;
+          width: 40%;
+          background-color: blue;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+
+}
+button:hover{
+          background-color: black;
+}
+#shortenedURL{
+          margin-top:20px ;
+          font-size: 18px;
+          color: red;
+}
